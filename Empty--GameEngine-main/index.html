@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Project Title Goes Here</title>
+  
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./automata.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1166.0" data-gr-ext-installed>
+    <canvas id="gameWorld" width="1024" height="768" style="background: white; border: 1px solid black"></canvas>
+    <!--<canvas id="gameWorld" width="1024" height="768" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>-->
+    <div>
+        <div id="ticks">Ticks: 30</div>
+        <label for="speed">Fast</label>
+        <input type="range" id="speed" min="1" max="120" value="30" step="1">
+        <label for="speed">Slow</label>
+    </div>
+</body>
+</html>
